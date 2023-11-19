@@ -1,0 +1,163 @@
+
+
+@media (max-width: 1400px){
+    .header {
+        padding-bottom: 350px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .header {
+        padding-bottom: 250px;
+    }
+
+    .hero-title {
+        font-size: 68px;
+    }
+
+    .article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 140px;
+    }
+
+    .article-text {
+        padding-left: 50px;
+        max-width: 50%;
+        margin-right: 0;
+    }
+
+    .article-img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1100px){
+    .footer-nav + .footer-nav {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 920px) {
+    .footer-copyright-terms {
+        max-width: 350px;
+    }
+
+
+    
+}
+
+
+@media (max-width: 800px) {
+
+
+    .header {
+        padding-bottom: 200px;
+    }
+
+    .nav, .account {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .nav-wrapper {
+        margin-bottom: 130px;
+    }
+
+    .mobile-nav-active {
+        display: flex;
+    }
+
+    .hero-title {
+        font-size: 48px;
+        text-shadow: -23px 0px 28px rgba(14,26,7,1);
+
+    }
+
+    .hero-category::before{
+        width: 42px;
+    }
+
+    .hero-category {
+        font-size: 14px;
+        padding-left: 62px;
+    }
+
+
+
+
+
+    .article-title{
+        font-size: 44px;
+    }
+
+
+    .footer-nav + .footer-nav {
+        margin-left: 30px;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .header {
+        padding-bottom: 150px;
+    }
+
+    .article{
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .article:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .article-text {
+        max-width: 100%;
+    }
+
+    .article-img {
+        max-width: 100%;
+        width: 320px;
+        margin-bottom: 45px;
+        
+    }
+
+
+
+    .footer-row {
+        flex-direction: column-reverse
+    }
+
+    .footer-nav-wrapper {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+@media (max-width: 420px){
+    .header {
+        padding-bottom: 80px;
+    }
+
+    .footer-nav-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-nav + .footer-nav {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .hero{
+        transform: translateY(-20%);
+    }
+}
